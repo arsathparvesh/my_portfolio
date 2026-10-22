@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arsath Parvesh M - IT student, web developer and frontend designer.">
+    <title>Arsath Parvesh M | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+        <a href="#home" class="logo">MyPortfolio<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="themeToggle" class="theme-toggle"
+                    aria-label="Switch color theme">🌙</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero section" id="home">
+        <div class="container hero-content">
+            <div>
+                <p class="eyebrow">HELLO, WORLD! 👋</p>
+                <h1>I'm <span class="accent">Arsath Parvesh M</span></h1>
+                <h2 class="hero-role">Web Developer & Frontend Designer.</h2>
+                <p class="description">
+                    I'm a B.Sc. Information Technology student who loves
+                    creating beautiful, responsive and user-friendly websites
+                    using HTML, CSS and JavaScript.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <p class="availability">✨ Learning, building and improving every day.</p>
+            </div>
+            <figure class="profile-photo-frame">
+                <span class="profile-photo-initials" aria-hidden="true">AP</span>
+                <img id="profilePhoto" src="images/WhatsApp Image 2026-10-22 at 3.21.41 PM.jpeg"
+                     alt="Profile photo of Arsath Parvesh M">
+            </figure>
+            </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+
+            <div class="about-card">
+                <div class="about-icon">🎓</div>
+                <div>
+                    <h3>Hi, I'm Arsath Parvesh M!</h3>
+                    <p>
+                        I'm currently pursuing my second year of B.Sc.
+                        Information Technology. I'm interested in web
+                        development, frontend design and building interactive
+                        websites.
+                    </p>
+                    <p>
+                        I enjoy learning new technologies, solving problems
+                        and turning ideas into working projects. My goal is
+                        to become a skilled web developer and frontend designer.
+                    </p>
+                    <p>
+                        Through my projects, I'm developing practical skills in **UI design, JavaScript logic, DOM manipulation, form validation, debugging, and local storage**. I enjoy exploring different approaches to solve problems, improving my code, and learning how each part of a website works together.
+                    </p>
+                    <p>
+                        I'm also working on strengthening my understanding of responsive web design, reusable code, and version control with Git and GitHub. I believe that consistent practice, curiosity, and attention to detail are essential for becoming a better developer.
+                    </p>
+                    <p><strong>Education:</strong> B.Sc. Information Technology — 2nd Year</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-soft" id="skills">
+        <div class="container">
+            <p class="eyebrow">WHAT I AM LEARNING</p>
+            <h2 class="section-title">My <span class="accent">Skills</span></h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon">🌐</span>
+                    <h3>HTML</h3>
+                    <p>Semantic page structure and accessible content.</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon">🎨</span>
+                    <h3>CSS</h3>
+                    <p>Styling, responsive layouts and animations.</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactive features and dynamic web pages.</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon">📱</span>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that adapt to mobile and desktop screens.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <p class="eyebrow">WHAT I HAVE BEEN BUILDING</p>
+            <h2 class="section-title">My <span class="accent">Projects</span></h2>
+            <p class="description">A showcase of my learning and development journey.</p>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all"
+                        aria-pressed="true">All</button>
+                <button class="filter-btn" data-filter="javascript"
+                        aria-pressed="false">JavaScript</button>
+                <button class="filter-btn" data-filter="web"
+                        aria-pressed="false">Web Design</button>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-category="javascript">
+                    <div class="project-visual visual-one">🎂</div>
+                    <div class="project-info">
+                        <p class="project-type">JAVASCRIPT PROJECT</p>
+                        <h3>Age & Date Calculator</h3>
+                        <p>Calculate age, date differences and time until special occasions.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Add live project link ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="javascript">
+                    <div class="project-visual visual-two">✅</div>
+                    <div class="project-info">
+                        <p class="project-type">PRODUCTIVITY APP</p>
+                        <h3>Smart Task Manager</h3>
+                        <p>Organize tasks, track progress, set priorities and save tasks locally.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Add live project link ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-visual visual-three">👨‍💻</div>
+                    <div class="project-info">
+                        <p class="project-type">WEB DEVELOPMENT</p>
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive website showcasing my profile, skills and projects.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <a href="#home" class="project-link">You're viewing this project ↗</a>
+                    </div>
+                </article>
+            </div>
+            <p id="filterMessage" class="muted" aria-live="polite"></p>
+        </div>
+    </section>
+
+    <section class="section section-soft" id="contact">
+        <div class="container contact-container">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">Let's <span class="accent">Talk.</span></h2>
+            <p class="description">Have an opportunity or project idea? Get in touch.</p>
+
+            <form class="contact-form" id="contactForm">
+                <label for="contactName">Your name</label>
+                <input id="contactName" type="text" placeholder="Enter your name" required>
+
+                <label for="contactEmail">Your email</label>
+                <input id="contactEmail" type="email" placeholder="you@example.com" required>
+
+                <label for="contactMessage">Your message</label>
+                <textarea id="contactMessage" rows="5"
+                          placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="btn btn-primary">Prepare Email ↗</button>
+                <p id="formMessage" class="muted" aria-live="polite"></p>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <p>© <span id="currentYear"></span> Arsath Parvesh M. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+    </div>
+</footer>
+
+</body>
+</html>
